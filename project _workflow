@@ -1,0 +1,133 @@
+## Project Workflow
+
+### 1. Data Collection
+
+The project began with four banking datasets:
+
+* Customers
+* Accounts
+* Transactions
+* Loans
+
+These datasets contained customer demographics, account information, transaction history, income details, and loan records.
+
+### 2. Data Cleaning and Preprocessing (Python)
+
+Python was used for initial data cleaning and preparation.
+
+Tasks performed:
+
+* Handling missing values
+* Removing inconsistencies
+* Formatting numerical columns
+* Creating SQL-ready datasets
+* Performing exploratory data analysis (EDA)
+
+Libraries used:
+
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+
+### 3. Bankruptcy Risk Prediction (Python)
+
+A machine learning model was developed to predict whether a customer is likely to face financial distress or bankruptcy.
+
+Features used:
+
+* Annual Income
+* Monthly Income
+* Outstanding Debt
+* Monthly EMI
+* Missed Payments
+* Account Balance
+* Employment Status
+
+Steps:
+
+* Feature selection
+* Train-test split
+* Model training using Random Forest Classifier
+* Model evaluation using accuracy score and classification metrics
+
+Output:
+
+* Bankruptcy Risk Prediction
+* High Risk / Low Risk Customer Classification
+
+### 4. Database Management and Analytics (SQL)
+
+The cleaned datasets were imported into MySQL.
+
+SQL was used for:
+
+* Database creation
+* Table creation
+* Data validation
+* Customer risk analysis
+* Loan analysis
+* Transaction analysis
+* Debt-to-income analysis
+* Customer financial profiling
+
+Key SQL concepts used:
+
+* Joins
+* CTEs
+* Aggregate Functions
+* CASE Statements
+* GROUP BY
+* ORDER BY
+
+### 5. Business Intelligence Dashboard (Power BI)
+
+Power BI was used to create interactive dashboards for business insights.
+
+Dashboard Pages:
+
+#### Executive Dashboard
+
+* Total Customers
+* Total Loans
+* Total Outstanding Debt
+* Average Account Balance
+
+#### Customer Risk Dashboard
+
+* Debt Risk Classification
+* Missed Payment Trends
+* Debt-to-Income Analysis
+
+#### Transaction Analytics Dashboard
+
+* Spending Categories
+* Transaction Channels
+* Transaction Type Distribution
+
+### 6. Project Outcome
+
+The project successfully combined Python, SQL, and Power BI to build an end-to-end Credit Risk and Bankruptcy Prediction System capable of:
+
+* Identifying high-risk customers
+* Predicting potential bankruptcy risk
+* Analyzing customer financial behavior
+* Providing business insights through interactive dashboards
+
+````
+
+### Workflow Summary
+
+```text
+Raw Banking Data
+        ↓
+Python Data Cleaning & EDA
+        ↓
+Python Bankruptcy Prediction Model
+        ↓
+SQL Database & Risk Analysis
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights & Risk Monitoring
+````
